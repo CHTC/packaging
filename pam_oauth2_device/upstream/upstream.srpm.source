@@ -1,2 +1,3 @@
-pam_oauth2_device/0.1.3.chtc/pamoauth2device-0.1.3.chtc-1.el8.src.rpm sha1sum=adbac5c6aa6295d366f025b4ae24e1354539a7b3
-# https://github.com/CHTC/pam_oauth2_device/releases/download/v0.1.3.chtc/pamoauth2device-0.1.3.chtc-1.el8.src.rpm
+https://github.com/CHTC/pam_oauth2_device/releases/download/v0.1.3.chtc/pamoauth2device-0.1.3.chtc-1.el8.src.rpm sha1sum=adbac5c6aa6295d366f025b4ae24e1354539a7b3
+# Also available in AFS cache using
+# pam_oauth2_device/0.1.3.chtc/pamoauth2device-0.1.3.chtc-1.el8.src.rpm sha1sum=adbac5c6aa6295d366f025b4ae24e1354539a7b3

@@ -4,7 +4,7 @@
 
 Name:    pam_oauth2_device
 Version: %{_version}
-Release: 1%{?dist}
+Release: 2%{?dist}
 Summary: PAM module for OAuth 2.0 Device flow
 License: Apache-2.0
 URL:     https://github.com/CHTC/pam_oauth2_device/
@@ -58,6 +58,9 @@ cp config_template.json ${RPM_BUILD_ROOT}%{_sysconfdir}/pam_oauth2_device/config
 
 
 %changelog
+* Fri May 24 2024 Mátyás Selmeci <matyas@cs.wisc.edu> - 0.1.3.chtc-2
+- Bump to rebuild
+
 * Thu Mar 07 2024 Mátyás Selmeci <matyas@cs.wisc.edu> - 0.1.3.chtc-1
 - Rename to pam_oauth2_device; build in Koji (INF-1663)
 
