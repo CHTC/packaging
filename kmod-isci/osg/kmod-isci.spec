@@ -1,14 +1,17 @@
 # Define the kmod package name here.
 %define kmod_name	isci
 
-# If kmod_kernel_version isn't defined on the rpmbuild line, define it here.
-%{!?kmod_kernel_version: %define kmod_kernel_version 5.14.0-427.13.1.el9_4}
-
 %{!?dist: %define dist .el9}
+
+%define kernel_version 5.14.0
+%define kernel_abi_number 467
+
+%define kmod_kernel_version %{kernel_version}-%{kernel_abi_number}%{?dist}
+
 
 Name:		kmod-%{kmod_name}
 Version:	1.2.0
-Release:	7%{?dist}
+Release:	7.%{kernel_version}.%{kernel_abi_number}%{?dist}
 Summary:	%{kmod_name} kernel module(s)
 Group:		System Environment/Kernel
 License:	GPLv2
